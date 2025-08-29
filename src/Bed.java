@@ -4,7 +4,8 @@ public class Bed {
     private double height;
     private String colorOfSheets;
     private double price;
-    public Bed(int numOfPillows, double height, String colorOfSheets ,double price) {
+
+    public Bed(int numOfPillows, double height, String colorOfSheets, double price) {
         this.colorOfSheets = colorOfSheets;
         this.height = height;
         this.numOfPillows = numOfPillows;
@@ -15,7 +16,7 @@ public class Bed {
         this.colorOfSheets = colorOfSheets;
         this.height = height;
         numOfPillows = 1;
-        this.price =defaultPrice;
+        this.price = defaultPrice;
     }
 
     public double getHeight() {
@@ -33,17 +34,4 @@ public class Bed {
     public void changeColorOfSheets(String colorOfSheets) {
         this.colorOfSheets = colorOfSheets;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
