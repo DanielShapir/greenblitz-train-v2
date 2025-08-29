@@ -9,6 +9,16 @@ public class Bed {
         this.numOfPillows = numOfPillows;
     }
 
+    public Bed(double height, String colorOfSheets){
+        this.colorOfSheets = colorOfSheets;
+        this.height = height;
+        numOfPillows=1;
+    }
+
+
+
+
+
     public double getHeight() {
         return height;
     }
