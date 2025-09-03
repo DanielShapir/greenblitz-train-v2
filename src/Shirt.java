@@ -6,7 +6,12 @@ public class Shirt {
         this.color = color;
         this.size = size;
     }
+    // copy constructor needed for closetS
+    public Shirt(Shirt other){
+        this.color = other.color;
+        this.size = other.size;
 
+    }
     public int getSize() {
         return size;
     }
