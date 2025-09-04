@@ -1,3 +1,5 @@
+package lesson4;
+
 public class Bed {
     private final double defaultPrice = 100;
     private int numOfPillows;

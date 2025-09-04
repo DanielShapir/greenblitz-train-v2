@@ -1,3 +1,5 @@
+package lesson4;
+
 public class Closet {
     private Shirt[] shirts;
 

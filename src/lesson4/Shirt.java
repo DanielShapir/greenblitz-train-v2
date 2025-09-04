@@ -1,3 +1,5 @@
+package lesson4;
+
 public class Shirt {
     public int size;
     public String color;
