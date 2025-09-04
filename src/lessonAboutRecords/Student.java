@@ -1,12 +1,12 @@
 package lessonAboutRecords;
 
-public record Student(String name , int grade) {
+public record Student(String name , int grade , int classNum) {
     public String getInfo(){
-        String strToReturn = (name + " is in" + grade + "th");
+        String strToReturn = (name + " is in" + grade + "th and in class number : " + classNum );
         return strToReturn;
     }
 public boolean isInHighSchool(){
-        if (grade >=10 && grade <= 12)
+        if ((grade >=10) && (grade <= 12))
             return true;
             else
                 return false;
