@@ -14,11 +14,17 @@ public enum Month {
     NOV(30),
     DEC(31);
 
-
+    private static int numOfmonths;
     private int numOfDays;
 
     Month(int getNumOfDays) {
         this.numOfDays = numOfDays;
+        numOfDays++;
     }
+
+    public int getSerialNUm() {
+        return this.ordinal();
+    }
+
 
 }
