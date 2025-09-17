@@ -1,6 +1,6 @@
 package lesson8;
 
-public class Spongebob extends Fish implements ProfessionalBasketBallPlayer{
+public class Spongebob extends Fish implements ProfessionalBasketBallPlayer {
 
 
     public Spongebob(String name, int age, String favFood) {
@@ -9,7 +9,7 @@ public class Spongebob extends Fish implements ProfessionalBasketBallPlayer{
 
     @Override
     public void goToWork() {
-      takeTheTrain();
+        takeTheTrain();
     }
 
     @Override

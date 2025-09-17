@@ -1,6 +1,6 @@
 package lesson8;
 
-public class Patrick extends Fish implements ProfessionalBasketBallPlayer{
+public class Patrick extends Fish implements ProfessionalBasketBallPlayer {
 
     public Patrick(String name, int age, String favFood) {
         super(name, age, favFood);
